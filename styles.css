@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+/*Body*/
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+/*----------------*/
+/*Header*/
+header{
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 6.25rem;
+}
+header img{
+    margin-left: 2.1875rem;
+}
+div.menuHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 21rem;
+    margin-right: 2.1875rem;
+}
+nav.menu a{
+    text-decoration: none;
+    color: #F3F3F3;
+    margin: .25rem;
+    font-weight: 700;
+}
+a.carrito{
+    text-decoration: none;
+    color: #D01418;
+    font-size: 1.5rem;
+}
+a.ham{
+    display: none;
+    font-size: 2rem;
+    color: #F3F3F3;
+    margin-right: 2.1875rem;
+}
+/*----------------*/
+/*Main*/
+main{
+    background-color: #F3F3F3;
+}
+/*Primera_Parte*/
+div.Primera_Parte{
+    background-image: url(img/Fondo.png);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 32rem;
+}
+h1{
+    font-size: 2.5rem;
+    color: #F3F3F3;
+    font-weight: 700;
+    text-align: center;
+}
+span{
+    color: #D01418;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D01418;
+    color: #F3F3F3;
+    font-size: 1.5625rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 13.75rem;
+    height: 3.8125rem;
+    cursor: pointer;
+}
+/*----------------*/
+/*Segunda_Parte*/
+section.Segunda_Parte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p.sub{
+    font-weight: 400;
+    font-size: 1.875rem;
+}
+div.Productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 89%;
+    flex-wrap: wrap;
+}
+div.Productos a{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #000000;
+    width: 16.5625rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+div.juego{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 14rem;
+}
+hr{
+    border: 0.2px solid #d6d2d2;
+    margin-bottom: 0;
+}
+div.descripcion{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p.grande{
+    margin: 0;
+    font-weight: 400;
+    margin-left: 1.25rem;
+    margin-bottom: .25rem;
+    font-size: 1.25rem;
+}
+p.mediano{
+    margin: 0;
+    font-weight: 400;
+    margin-left: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0.1875rem;
+    font-size: 0.8125rem;
+}
+p.chico{
+    margin: 0;
+    margin-left: 1.25rem;
+    font-weight: 400;
+    font-size: 0.625rem;
+    color: #619D00;
+}
+/*----------------*/
+/*Tercera_Parte*/
+div.Tercera_Parte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.Articulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5.3125rem;
+    flex-wrap: wrap;
+    width: 93%;
+}
+section.Articulos a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 22.5625rem;
+    height: 8.4375rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 1rem;
+    color: #F3F3F3;
+}
+section.Articulos a p{
+    margin-right: 0.625rem;
+    font-size: 1.5625rem;
+    font-weight: 400;
+}
+a.banner1{
+    background-image: url(img/banner\ 1.png);
+    background-repeat: none;
+    background-size: cover;
+}
+a.banner2{
+    background-image: url(img/banner\ 2.png);
+    background-repeat: none;
+    background-size: cover;
+}
+/*----------------*/
+/*----------------*/
+/*Footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+}
+/*Fondo Negro*/
+div.fondoNegro{
+    background-color: #222222;
+    height: 13.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+div.fondoNegro img{
+    margin-left: 4.6875rem;
+}
+div.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 4.6875rem;
+}
+div.redes p{
+    font-size: 1.5625rem;
+    font-weight: 400;
+    color: #F3F3F3;
+}
+nav.redes1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+nav.redes1 a{
+    font-size: 2rem;
+}
+a.twitter{
+    color: #14AED0;
+}
+a.facebook{
+    color: #1476D0;
+}
+a.instagram{
+    color: #CE0CFF;
+}
+/*----------------*/
+/*Fondo Gris*/
+div.fondoGris{
+    background-color: #C4C4C4;
+    height: 1.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+div.fondoGris p{
+    margin: 0;
+    font-size: 0.625rem;
+    font-weight: 400;
+}
+/*----------------*/
+/*----------------*/
+@media (max-width:554px){
+    /*Header*/
+    div.menuHeader{
+        display: none;
+    }
+    a.ham{
+        display: inline;
+    }
+    /*----------------*/
+    /*Main*/
+    /*Primera Parte*/
+    h1{
+        width: 23rem;
+    }
+    /*----------------*/
+    /*Tercera Parte*/
+    section.Articulos a{
+        width: 18rem;
+    }
+    /*----------------*/
+    /*----------------*/
+    /*Footer*/
+    div.fondoNegro{
+        flex-direction: column;
+        justify-content: center;
+    }
+    div.fondoNegro img{
+        margin-left: 0;
+    }
+    div.redes{
+        margin-right: 0;
+    }
+    /*----------------*/
+}
